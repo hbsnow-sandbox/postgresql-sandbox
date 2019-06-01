@@ -6,5 +6,6 @@ services:
       POSTGRES_PASSWORD: secret
     volumes:
       - ./pgsql-data:/var/lib/postgresql/data
+      - ./home:/home
     ports:
       - 5432:5432
