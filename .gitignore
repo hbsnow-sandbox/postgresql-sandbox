@@ -1,2 +1,3 @@
 pgsql-data
-home
+home/*
+!home/.tbls.yml
